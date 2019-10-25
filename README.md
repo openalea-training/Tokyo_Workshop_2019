@@ -42,34 +42,34 @@ Activate the *openalea* environment:
 
 ### Monday 28th October
 
-09:00 - 09:10     Welcome
-09:10 - 09:30    Workshop introduction
-09:30 - 10:15    Short presentation of the participants
-Break
-10:30 - 11:30    Introduction to 3D shoot and root plant modelling (Christophe Pradal)
-11:30 - 12:00     Discussion
+    09:00 - 09:10     Welcome 
+    09:10 - 09:30    Workshop introduction
+    09:30 - 10:15    Short presentation of the participants
+
+    10:30 - 11:30    Introduction to 3D shoot and root plant modelling (Christophe Pradal)
+    11:30 - 12:00     Discussion
 
 Lunch
 
-13:30 - 14:00    Short Introduction to OpenAlea
-14:00 - 14:30    3D Analysis and Reconstruction of Plant Architecture
-14:30 - 16:00    Simulation of Plant Architecture using L-Systems
-Break
-16:30 - 17:00    Light interception on 3D models
+    13:30 - 14:00    Short Introduction to OpenAlea
+    14:00 - 14:30    3D Analysis and Reconstruction of Plant Architecture
+    14:30 - 16:00    Simulation of Plant Architecture using L-Systems
 
-Installation of OpenAlea (needed for Tuesday)
+    16:30 - 17:00    Light interception on 3D models
+
+    Installation of OpenAlea (needed for Tuesday)
 
 ### Tuesday 29th October
 
 Morning (09:00 - 12:00)
-Hands-on tutorials : Simulation of shoot or root architecture
-Basic tutorials
-Simulation of a tree
-Simulation of a root system
+    
+    Hands-on tutorials : Simulation of shoot or root architecture
+    Basic tutorials
+    Simulation of a tree
+    Simulation of a root system
 
 Afternoon
-13:30 - 17:00    Open simulation tutorials based on participants feedback
-Pair programming: Each group will be composed of two persons that will work together.
-Each group will select its plant of interest to simulate, above or below ground.
-17:00 - 18:00    Open Discussions and Farewell
+
+    13:30 - 17:00    Open simulation tutorials based on participants feedback
+    17:00 - 18:00    Open Discussions and Farewell
 
