@@ -27,7 +27,25 @@ If you have not yet installed conda on your computer, follow these instructions:
 
 [Conda Download](https://conda.io/miniconda.html). Use the Python 2.7 based installation.
 
-#### Windows, Linux, Mac
+### Mac
+First copy the file [macenv.txt](https://gist.github.com/pradal/1a7ebb23ba86d980cfae7373517fb5b3) using in a shell using this command:
+    
+    wget https://gist.githubusercontent.com/pradal/1a7ebb23ba86d980cfae7373517fb5b3/raw/33856ada3c662b34ccd7a9453f16baec073a818d/macenv.txt
+
+If it fails copy the content in a file macenv.txt.
+
+Then, after install of conda, run the following command 
+
+    conda create -n openalea --file macenv.txt
+
+Activate the environment using
+
+    conda activate openalea
+    
+Test your installation by running
+
+    lpy
+#### Windows, Linux
 
 Create an environment named *openalea*:
 Launch a console (See Anaconda Prompt in Start menu on windows)
