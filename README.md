@@ -27,7 +27,25 @@ If you have not yet installed conda on your computer, follow these instructions:
 
 [Conda Download](https://conda.io/miniconda.html). Use the Python 2.7 based installation.
 
-#### Windows, Linux, Mac
+### Mac
+First copy the file [macenv.txt](https://gist.github.com/pradal/1a7ebb23ba86d980cfae7373517fb5b3) using in a shell using this command:
+    
+    wget https://gist.githubusercontent.com/pradal/1a7ebb23ba86d980cfae7373517fb5b3/raw/33856ada3c662b34ccd7a9453f16baec073a818d/macenv.txt
+
+If it fails copy the content in a file macenv.txt.
+
+Then, after install of conda, run the following command 
+
+    conda create -n openalea --file macenv.txt
+
+Activate the environment using
+
+    conda activate openalea
+    
+Test your installation by running
+
+    lpy
+#### Windows, Linux
 
 Create an environment named *openalea*:
 Launch a console (See Anaconda Prompt in Start menu on windows)
@@ -42,34 +60,34 @@ Activate the *openalea* environment:
 
 ### Monday 28th October
 
-09:00 - 09:10     Welcome
-09:10 - 09:30    Workshop introduction
-09:30 - 10:15    Short presentation of the participants
-Break
-10:30 - 11:30    Introduction to 3D shoot and root plant modelling (Christophe Pradal)
-11:30 - 12:00     Discussion
+    09:00 - 09:10     Welcome 
+    09:10 - 09:30    Workshop introduction
+    09:30 - 10:15    Short presentation of the participants
+
+    10:30 - 11:30    Introduction to 3D shoot and root plant modelling (Christophe Pradal)
+    11:30 - 12:00     Discussion
 
 Lunch
 
-13:30 - 14:00    Short Introduction to OpenAlea
-14:00 - 14:30    3D Analysis and Reconstruction of Plant Architecture
-14:30 - 16:00    Simulation of Plant Architecture using L-Systems
-Break
-16:30 - 17:00    Light interception on 3D models
+    13:30 - 14:00    Short Introduction to OpenAlea
+    14:00 - 14:30    3D Analysis and Reconstruction of Plant Architecture
+    14:30 - 16:00    Simulation of Plant Architecture using L-Systems
 
-Installation of OpenAlea (needed for Tuesday)
+    16:30 - 17:00    Light interception on 3D models
+
+    Installation of OpenAlea (needed for Tuesday)
 
 ### Tuesday 29th October
 
 Morning (09:00 - 12:00)
-Hands-on tutorials : Simulation of shoot or root architecture
-Basic tutorials
-Simulation of a tree
-Simulation of a root system
+    
+    Hands-on tutorials : Simulation of shoot or root architecture
+    Basic tutorials
+    Simulation of a tree
+    Simulation of a root system
 
 Afternoon
-13:30 - 17:00    Open simulation tutorials based on participants feedback
-Pair programming: Each group will be composed of two persons that will work together.
-Each group will select its plant of interest to simulate, above or below ground.
-17:00 - 18:00    Open Discussions and Farewell
+
+    13:30 - 17:00    Open simulation tutorials based on participants feedback
+    17:00 - 18:00    Open Discussions and Farewell
 
