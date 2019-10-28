@@ -1,0 +1,28 @@
+from random import random
+
+N=50
+P = 0.3
+ZONE = 3
+
+Axiom: @Ts(1/float(N)) @Tp(0,0,-1) ^(180) A(ZONE)
+
+derivation length: N
+production:
+
+A(zone):
+  if zone > 0:
+    produce  /(137.5) S A(zone-1)
+  else:
+    p = random()
+    nproduce /(137.5) S
+    if p < P:
+      nproduce [+(30) A(ZONE)] A(ZONE)
+    else: 
+      nproduce  /(137.5) S A(0)
+
+
+S --> S
+interpretation:
+A(n) --> SetColor(n%6) @O(.2)
+S --> F(1)
+endlsystem

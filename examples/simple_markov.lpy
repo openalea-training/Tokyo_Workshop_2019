@@ -1,0 +1,30 @@
+from random import random
+
+p= 0.7
+AUXIN = 4
+Axiom: -(180)_(0.1) A(AUXIN, 0)
+
+derivation length: 30
+production:
+
+A(x, order):
+  if order >7:
+    produce *
+  
+  if random() < p:
+     produce S(x-1, order) A(x, order)
+  else:
+     produce S(x-1, order) /[+(30) B(x, order+1)] A(x, order)
+
+B(x, order):
+  if x == 0:
+    produce A(AUXIN, order)
+  else:
+    produce B(x-1, order)
+
+interpretation:
+
+S(n, order) -->  F(1.-order/10.)
+#B(x, order) --> @O(2)
+
+endlsystem
